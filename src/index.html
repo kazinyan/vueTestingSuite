@@ -216,7 +216,7 @@ Editable Block - JS Source code - layoutItems[0] -->
       data: function () {
             return {
             questions:[
-                {name:"Kyle Team Infinity", layoutItems: [
+                {name:"question 1", layoutItems: [
                 {vModel: js_beautify(`Edit your code to pass the tests! All the best!`)},
                 {vModel: js_beautify(`//main.js \n var app=new Vue({el:"#app",data:{user:"Chris",temp:95}});module.exports=app;`)},
                 {vModel: js_beautify(`//main.spec.js \n const app=require("./main");describe("Load app from main.js",()=>{it("has a created hook",()=>{expect(typeof app).toBe("object");});it("sets the correct default data",()=>{expect(typeof app).toBe("object");expect(2).toEqual(2);expect(app.user).toEqual("Chris");});});`)},  
