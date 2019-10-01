@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: ./
         env:
-          AWS_DEFAULT_REGION: "us-east-1"
+          AWS_DEFAULT_REGION: "ap-southeast-1"
           LAMBDA_FUNC_NAME: "vueTestingSuite"
           LAMBDA_RUNTIME: "nodejs10.x"
           LAMBDA_HANDLER: "index.handler"
